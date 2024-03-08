@@ -1,0 +1,118 @@
+# Simple-personal-information-web-page-using-HTML5
+
+# Main Page
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head>
+
+<meta charset="UTF-8">
+<title>Personal Information</title>
+
+</head>
+
+<body>
+<h1>Welcome to the Personal Information Page</h1>
+</body>
+
+<img src="./LinkedIn Profile Picture.jpg" width="400" height="400" />
+
+<p>
+
+<h3>Name: Ghady Najm</h3>
+<h3>DOB: 07/05/2002</h3>
+<h3>Other Information:</h3>
+
+<ol>
+
+    <li>
+
+        <a href="./Contacts.html">Contacts</a>
+
+    </li>
+
+    <li>
+
+        <a href="./Education.html">Education</a>
+
+    </li>
+
+</ol>
+
+</p>
+</html>
+
+#Education Page
+
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head>
+
+<meta charset="UTF-8">
+<title>Education</title>
+
+</head>
+
+</html>
+
+<h1>Education Page</h1>
+
+<img src="./AUST Logo.png" width= 200"AUST Logo"/>
+
+
+<h2>American University of Science and Technology:</h2>
+
+<ul>
+
+    <li>Bachelor of Science - BS, Information and Communications Technology - with emphasis on Cyber Security and Ethical Hacking.</li>
+    <p></p>
+    <li>October 2020 - March 2022.</li>
+
+</ul>
+
+<hr>
+
+<img src="USAL Logo.png" width="400"/>
+
+<h2>University of Sciences and Arts in Lebanon (USAL):</h2>
+
+<ul>
+
+    <li>Bachelor of Science - BS, Computer and Network Security / Cyber Security.</li>
+    <p></p>
+    <li>June 2022 - Present.</li>
+
+</ul>
+
+#Contact Page
+
+
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head>
+
+<meta charset="UTF-8">
+<title>Contacts</title>
+
+</head>
+
+</html>
+
+<h1>Contacts Page</h1>
+
+<ul>
+
+
+    <li>LinkedIn Profile Link: <a href="linkedin.com/in/ghady-najm-340b02208">linkedin.com/in/ghady-najm-340b02208</a></li>
+    <hr>
+    <li>Personal Email Address: G.Najm@outlook.com</li>
+    <hr>
+    <li>Phone Number: +961- ** *** ***</li>
+
+
+</ul>
