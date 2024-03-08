@@ -1,0 +1,272 @@
+# Welcome Page
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Welcome</title>
+
+</head>
+
+<style>
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        text-align: center;
+        color: blue;
+    }
+
+    h2 {
+        text-align: center;
+        color: blue
+    }
+
+    img {
+
+        text-align: center;
+
+    }
+
+    .ecommerce {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+
+    }
+
+    li {
+
+        list-style: none;
+        color: blue;
+        font-size: 1.5rem;
+    }
+
+    .image-row {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+
+<body>
+
+    <h1>Welcome To My First E-commerce Website</h1>
+
+    <img src="./ecommerce.png" width="500" height="250" class="ecommerce" />
+
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+
+    <div>
+
+        <ul class="image-row">
+
+            <li><img src="./games 1.jpg" alt="games" height="100px" width="100px"> <a href="./Gaming.html"> Gaming
+                    Setups</a></li>
+
+            <li><img src="./food.jpg" alt="food" height="100px" width="100px"> <a href="./FoodAndDrinks.html"> Food and
+                    Drinks</a></li>
+
+
+
+        </ul>
+
+    </div>
+
+
+</body>
+
+</html>
+
+# Gaming Page
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Gaming Products</title>
+
+</head>
+
+<style>
+    body {
+
+        background-color: blueviolet;
+
+    }
+
+    h1 {
+
+        text-align: center;
+        color: ghostwhite;
+    }
+
+    img {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        text-align: center;
+
+
+    }
+
+    .games-image {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+
+        list-style: none;
+        color: red;
+        font-size: 1.5rem;
+    }
+
+    .games-2 {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+</style>
+
+<body>
+
+    <h1>Gaming Setups</h1>
+
+    <img src="./games 2.jpg" alt="games 2" height="250px" width="200px" class="games-2" />
+
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+
+    <div>
+
+        <ul id="games-image">
+
+            <li><img src="./chair.webp" width="200px" /></li>
+            <li><img src="./monitor.jpg" width="200px" /></li>
+            <li><img src="./desktop.jpg" width="200px" /></li>
+
+        </ul>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
+
+# Food And Drinks Page
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Food and Drinks</title>
+
+</head>
+
+<style>
+
+body {
+
+    background-color:saddlebrown;
+
+}
+
+h1 {
+
+    color: aquamarine;
+    text-align: center;
+}
+
+.FoodAndDrinks {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px; 
+
+}
+
+li {
+
+    list-style: none;
+    color: blue;
+    font-size: 1.5rem;
+
+}
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;   
+    text-align: center;
+
+}
+
+
+
+</style>
+
+<body>
+
+    <h1>Food and Drinks</h1>
+
+    <img src="./FoodAndDrinks.png" width="200px" height="200px" class="FoodAndDrinks"/>
+
+<hr/>
+<hr/>
+<hr/>
+<hr/>
+<hr/>
+
+<div>
+
+<ul>
+
+    <li><img src="./chicken.jpg" width="100px"></li>
+    
+    <li><img src="./pizza.jpg" width="150px"></li>
+
+    <li><img src="./pepsi.jpg" width="100px"></li>
+    
+    <li><img src="./fanta.jpg" width="150px"></li>
+
+   
+
+</ul>
+
+
+</div>
+
+
+</body>
+
+
+</html>
