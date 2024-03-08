@@ -1,0 +1,258 @@
+# Home Page
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Home Page</title>
+
+<style>
+
+body {
+
+background-color: red;
+
+}
+
+h1 {
+
+color: turquoise;
+text-align: center;
+
+}
+
+.Picture {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+    
+    }
+
+.Education {
+
+font-size: 40px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+height: 25%;
+
+}
+
+.Contacts {
+
+    font-size: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <h1>Welcome To My Information Web Page!</h1>
+
+    <img src="./LinkedIn Profile Picture.jpg" alt="Picture" class="Profile Picture" width="300px" height="300px"/> 
+
+    <hr/>
+
+    <a href="./Education.html" class="Education">Education</a>
+    <hr>
+    <a href="./Contacts.html" class="Contacts">Contacts</a>
+
+</body>
+
+</html>
+
+# Education Page
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Education Page</title>
+
+
+<style>
+
+body {
+
+background-color: teal;
+
+}
+
+h1 {
+
+color: turquoise;
+text-align: center;
+
+}    
+
+h3 {
+
+text-align: center;
+color: bisque;
+
+}
+
+h4 {
+
+    text-align: center;
+    color: bisque;
+
+}
+
+.Logo1 {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
+
+.Logo2 {
+
+    background-color: turquoise;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+
+}
+
+</style>
+    
+</head>
+
+<body>
+
+<h1>"Education Page"</h1>
+
+<img src="./AUST Logo.png" alt="AUST" class="Logo1" />
+
+<h3>American University of Science and Technology</h3>
+<h4>Information and Communications Technology - with Emphasis on Cyber Security and Ethical Hacking</h4>
+
+<hr/>
+
+<img src="./USAL Logo.png" alt="USAL" class="Logo2" />
+
+<h3>University of Science and Arts in Lebanon</h3>
+<h4>Computer Sciences - with a Concentration on Computer and Network Security</h4>
+
+
+</body>
+
+</html>
+
+# Contacts Page
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Contacts Page</title>
+
+</head>
+
+<style>
+
+body {
+
+background-color: brown;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: aquamarine;
+
+}
+
+h3 {
+
+text-align: center;
+color: aqua;
+
+}
+
+h4 {
+
+    text-align: center;
+    color: aqua;
+    
+    }
+
+.LinkedIn {
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 5%;
+height: 5%;
+
+}
+
+.Email {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    height: 5%;
+
+}
+
+.Phone {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    height: 5%;
+
+}
+
+</style>
+
+<body>
+
+<h1>"Contacts Page"</h1>
+
+<img src="./LinkedIn Logo.png" alt="LinkedIn" class="LinkedIn"/>
+
+<h3>LinkedIn Profile Page</h3>
+<h4>linkedin.com/in/ghady-najm-340b02208</h4>
+
+<hr/>
+
+<img src="./Email Logo.png" alt="Email" class="Email"/>
+
+<h3>Email Address</h3>
+<h4>G.Najm@outlook.com</h4>
+
+<hr/>
+
+<img src="./Phone Number Logo.png" alt="Phone" class="Phone"/>
+
+<h3>Phone Number</h3>
+<h4> +961 - ** *** ***</h4>
+
+</body>
+
+</html>
