@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add box-sizing to make layout easier */
+}
+
+
+body {
+
+    font-family: 'Exo', sans-serif;
+    background-color: #f9f9f9;
+
+}
+
+.context {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.context h1 {
+    text-align: center;
+    color: #428bca;
+    font-size: 30px;
+}
+
+
+
+.container {
+    width: 450px;
+    padding: 20px;
+    margin: 80px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.option {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color;
+}
+
+.question {
+
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+
+}
