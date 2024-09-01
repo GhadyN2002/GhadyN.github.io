@@ -1,0 +1,42 @@
+body {
+    background-color: orange
+  }
+
+h1 {
+    color: yellow;
+    text-shadow: 0 0 3px darkblue, 0 0 5px darkblue;
+    text-transform: uppercase;
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    
+   
+}
+
+p {
+    color: yellow;
+    text-shadow: 0 0 3px darkblue, 0 0 5px darkblue;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+#floatingInput {
+
+    font-size: 25px;
+
+}
+
+#floatingPassword {
+
+    font-size: 25px;
+
+}
+
+#SignUp {
+
+    font-size: 25px;
+
+}
